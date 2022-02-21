@@ -13,8 +13,8 @@
 		"typescript.tsc.autoDetect": "off",
 		"C_Cpp.default.forcedInclude": [
 			"${default}",
-			"G:\\Unreal Projects\\ToonTanksV1\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\ToonTanksV1\\Definitions.ToonTanksV1.h",
-			"G:\\Unreal Projects\\ToonTanksV1\\Intermediate\\Build\\Win64\\ToonTanksV1Editor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
+			"G:\\Unreal Projects\\UE4Tanks\\ToonTanksV1\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\ToonTanksV1\\Definitions.ToonTanksV1.h",
+			"G:\\Unreal Projects\\UE4Tanks\\ToonTanksV1\\Intermediate\\Build\\Win64\\ToonTanksV1Editor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
 		]
 	},
 	"extensions": {
