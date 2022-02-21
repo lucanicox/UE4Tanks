@@ -1,0 +1,109 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "Tank.h"
+#include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
+#include "Projectile.h"
+
+
+ATank::ATank()
+{
+    //Components Setup
+    
+    SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
+    SpringArm->SetupAttachment(RootComponent);
+
+    Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+    Camera->SetupAttachment(SpringArm);
+
+    ProjectileSpawnPointA = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn PointA"));
+    ProjectileSpawnPointA->SetupAttachment(TurretMesh);
+
+    ProjectileSpawnPointB = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn PointB"));
+    ProjectileSpawnPointB->SetupAttachment(TurretMesh);
+
+}
+
+void ATank::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) 
+{
+    Super::SetupPlayerInputComponent(PlayerInputComponent);
+    
+    PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ATank::Move);
+    PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
+    PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
+}
+
+void ATank::Tick(float DeltaTime) 
+{
+    Super::Tick(DeltaTime);
+
+    if (TankPlayerController)
+    {
+        FHitResult HitResult;
+        TankPlayerController->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
+
+        //Call Function on BasePawn
+        RotateTurret(HitResult.ImpactPoint);
+        
+        //DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 25.f, 12, FColor::Red, false, -1.f);
+    }
+
+}
+
+void ATank::HandleDestrucion() 
+{
+    Super::HandleDestruction();
+    SetActorHiddenInGame(true);
+}
+
+float ATank::GetHealthPercent() const
+{
+    return Health / MaxHealth;
+}
+
+void ATank::BeginPlay() 
+{
+    Super::BeginPlay();
+
+    TankPlayerController = Cast<APlayerController>(GetController());
+
+    bPowerUpFireActive = false;
+}
+
+void ATank::Fire() 
+{
+    
+    if (bPowerUpFireActive)
+    {
+        FVector LocationA = ProjectileSpawnPointA->GetComponentLocation();
+	    FRotator RotationA = ProjectileSpawnPointA->GetComponentRotation();
+
+	    auto ProjectileA = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationA, RotationA);
+	    ProjectileA->SetOwner(this);
+
+        FVector LocationB = ProjectileSpawnPointB->GetComponentLocation();
+	    FRotator RotationB = ProjectileSpawnPointB->GetComponentRotation();
+
+	    auto ProjectileB = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationB, RotationB);
+	    ProjectileB->SetOwner(this);
+    }
+        Super::Fire();
+}
+
+void ATank::Move(float Value) 
+{
+    FVector DeltaLocation = FVector::ZeroVector;
+    DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
+    AddActorLocalOffset(DeltaLocation, true);
+}
+
+void ATank::Turn(float Value) 
+{
+    FRotator DeltaRotation = FRotator::ZeroRotator;
+    DeltaRotation.Yaw = Value * TurnRate * UGameplayStatics::GetWorldDeltaSeconds(this);
+    AddActorLocalRotation(DeltaRotation, true);
+}
+
+
+    
