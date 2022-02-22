@@ -28,6 +28,11 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameOver(bool bWonGame);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Timer = 30.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int Score = 0;
 
 private:
 

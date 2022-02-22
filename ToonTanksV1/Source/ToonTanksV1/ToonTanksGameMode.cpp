@@ -24,22 +24,14 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     else if (ATower* DestroyedTower = Cast<ATower>(DeadActor))
     {
         DestroyedTower->HandleDestruction();
+        Timer = Timer + 10.f;
         --TargetTowers;
-        
-        if (TargetTowers == 0 && TargetMinions == 0)
-        {
-            GameOver(true);
-        }
     }
     else if (ABaseMinion* DestroyedMinion = Cast<ABaseMinion>(DeadActor))
     {
         DestroyedMinion->HandleDestruction();
+        Timer = Timer + 10.f;
         --TargetMinions;
-        
-        if (TargetTowers == 0 && TargetMinions == 0)
-        {
-            GameOver(true);
-        }
     }
 }
 
@@ -51,8 +43,7 @@ void AToonTanksGameMode::BeginPlay()
     
 void AToonTanksGameMode::HandleGameStart() 
 {
-    TargetTowers = GetTargetTowerCounter();
-    TargetMinions = GetTargetMinionsCounter();
+
     Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));      //set pawn var
     ToonTanksPlayerController = Cast<AToonTanksPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
 
