@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Components/SphereComponent.h"
 #include "BaseMinion.generated.h"
 
 UCLASS()
