@@ -24,6 +24,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int Seconds = 0;
 
+	void AddSeconds();
+
+	void AddScore();
+
 protected:
 
 	virtual void BeginPlay() override;

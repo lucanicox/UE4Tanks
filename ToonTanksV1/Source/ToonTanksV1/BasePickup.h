@@ -51,6 +51,12 @@ private:
 	bool HealthPickup;
 
 	UPROPERTY(EditAnywhere, Category = "Type")
+	bool AddTime;
+
+	UPROPERTY(EditAnywhere, Category = "Type")
+	bool AddScore;
+
+	UPROPERTY(EditAnywhere, Category = "Type")
 	bool TeleportPickup;
 
 	UPROPERTY(EditAnywhere, Category = "Type")
@@ -58,5 +64,7 @@ private:
 
 	UFUNCTION()
 	void OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	class AToonTanksGameMode* ToonTanksGameMode;
 
 };

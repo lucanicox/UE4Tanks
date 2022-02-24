@@ -24,27 +24,32 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     else if (ATower* DestroyedTower = Cast<ATower>(DeadActor))
     {
         DestroyedTower->HandleDestruction();
-        Seconds = Seconds + 5;
-        Score = Score + 100;
-        if (Seconds > 60)
-        {
-            Minutes = Minutes +1;
-            Seconds = Seconds - 60;
-        }
+        AddSeconds();
+        AddScore();
         --TargetTowers;
     }
     else if (ABaseMinion* DestroyedMinion = Cast<ABaseMinion>(DeadActor))
     {
         DestroyedMinion->HandleDestruction();
-        Seconds = Seconds + 5;
-        Score = Score + 150;
+        AddSeconds();
+        AddScore();
+        --TargetMinions;
+    }
+}
+
+void AToonTanksGameMode::AddSeconds() 
+{
+    Seconds = Seconds + 5;
         if (Seconds > 60)
         {
             Minutes = Minutes +1;            
             Seconds = Seconds - 60;
         }
-        --TargetMinions;
-    }
+}
+
+void AToonTanksGameMode::AddScore() 
+{
+    Score = Score + 150;
 }
 
 void AToonTanksGameMode::BeginPlay() 
@@ -81,11 +86,6 @@ void AToonTanksGameMode::Countdown()
     {
         Seconds = Seconds - 1;
     }
-    /* else if (Seconds >= 60)
-        {
-            Minutes = Minutes +1;
-            Seconds = 0;
-        } */
     else
     {
         if (Minutes == 0 && Seconds <= 0)

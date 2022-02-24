@@ -5,6 +5,7 @@
 #include "Components/SphereComponent.h"
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include "ToonTanksGameMode.h"
 #include "Tank.h"
 
 
@@ -27,6 +28,7 @@ ABasePickup::ABasePickup()
 	//ParticlePicked->SetupAttachment(SphereComp);
 	
 	SphereComp->OnComponentBeginOverlap.AddDynamic(this, &ABasePickup::OnComponentBeginOverlap);
+
 }
 
 // Called when the game starts or when spawned
@@ -35,6 +37,8 @@ void ABasePickup::BeginPlay()
 	Super::BeginPlay();
 
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
+
+	ToonTanksGameMode = Cast<AToonTanksGameMode>(UGameplayStatics::GetGameMode(this));
 
 }
 
@@ -48,7 +52,7 @@ void ABasePickup::OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComp, A
 			{
 				Tank->bPowerUpFireActive = true;
 			}
-			if (HealthPickup)
+			else if (HealthPickup)
 			{
 				if (Tank->Health == 100.0f)
 				{
@@ -59,9 +63,17 @@ void ABasePickup::OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComp, A
 					Tank->Health += 25.0f;
 				}
 			}
-			if (TeleportPickup)
+			else if (TeleportPickup)
 			{
 				Tank->SetActorLocation(TeleportLocation, false, nullptr, ETeleportType::None);
+			}
+			else if (AddTime)
+			{
+				ToonTanksGameMode->AddSeconds();
+			}
+			else if (AddScore)
+			{
+				ToonTanksGameMode->AddScore();
 			}
 			//ParticlePicked->InitializeSystem();
 			//ParticlePicked->Activate(true);
