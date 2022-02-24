@@ -18,6 +18,12 @@ public:
 
 	void ActorDied(AActor* DeadActor);        // function to implement for dead actor
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int Minutes = 1;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int Seconds = 0;
+
 protected:
 
 	virtual void BeginPlay() override;
@@ -27,9 +33,6 @@ protected:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameOver(bool bWonGame);
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Timer = 30.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int Score = 0;
@@ -42,6 +45,8 @@ private:
 	float StartDelay = 3.f;
 
 	void HandleGameStart();
+
+	void Countdown();
 
 	int32 TargetTowers = 0;
 	int32 GetTargetTowerCounter();

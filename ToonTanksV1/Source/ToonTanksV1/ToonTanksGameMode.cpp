@@ -24,13 +24,25 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     else if (ATower* DestroyedTower = Cast<ATower>(DeadActor))
     {
         DestroyedTower->HandleDestruction();
-        Timer = Timer + 10.f;
+        Seconds = Seconds + 5;
+        Score = Score + 100;
+        if (Seconds > 60)
+        {
+            Minutes = Minutes +1;
+            Seconds = Seconds - 60;
+        }
         --TargetTowers;
     }
     else if (ABaseMinion* DestroyedMinion = Cast<ABaseMinion>(DeadActor))
     {
         DestroyedMinion->HandleDestruction();
-        Timer = Timer + 10.f;
+        Seconds = Seconds + 5;
+        Score = Score + 150;
+        if (Seconds > 60)
+        {
+            Minutes = Minutes +1;            
+            Seconds = Seconds - 60;
+        }
         --TargetMinions;
     }
 }
@@ -52,12 +64,41 @@ void AToonTanksGameMode::HandleGameStart()
     if (ToonTanksPlayerController)
     {
         ToonTanksPlayerController->SetPlayerEnableState(false);
-
+        
         FTimerHandle PlayerEnableTimerHandle;               //create timerhandle                          
         FTimerDelegate DelayDelegate = FTimerDelegate::CreateUObject(ToonTanksPlayerController, &AToonTanksPlayerController::SetPlayerEnableState, true); //create delegate
         GetWorldTimerManager().SetTimer(PlayerEnableTimerHandle, DelayDelegate, StartDelay, false);   //pass handle & delegate + params to SetTimer()
+
+        FTimerHandle TimerHandleCountdown;
+        GetWorldTimerManager().SetTimer(TimerHandleCountdown, this, &AToonTanksGameMode::Countdown, 1.f, true, 3.0);
     }
     
+}
+
+void AToonTanksGameMode::Countdown() 
+{
+    if (Seconds != 0 )
+    {
+        Seconds = Seconds - 1;
+    }
+    /* else if (Seconds >= 60)
+        {
+            Minutes = Minutes +1;
+            Seconds = 0;
+        } */
+    else
+    {
+        if (Minutes == 0 && Seconds <= 0)
+        {
+            GameOver(false);
+        }
+        
+        else
+        {
+            Minutes = Minutes -1;
+            Seconds = 59;
+        }
+    }
 }
 
 int32 AToonTanksGameMode::GetTargetTowerCounter() 
