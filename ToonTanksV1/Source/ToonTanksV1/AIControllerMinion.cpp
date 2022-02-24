@@ -31,6 +31,7 @@ void AAIControllerMinion::Tick(float DeltaSeconds)
     {
         GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
         GetBlackboardComponent()->SetValueAsVector(TEXT("LastKnownLocation"), PlayerPawn->GetActorLocation());
+        GetBlackboardComponent()->SetValueAsBool(TEXT("PlayerDead"), PlayerPawn->IsHidden());
     }
     else
     {

@@ -24,23 +24,32 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     else if (ATower* DestroyedTower = Cast<ATower>(DeadActor))
     {
         DestroyedTower->HandleDestruction();
+        AddSeconds();
+        AddScore();
         --TargetTowers;
-        
-        if (TargetTowers == 0 && TargetMinions == 0)
-        {
-            GameOver(true);
-        }
     }
     else if (ABaseMinion* DestroyedMinion = Cast<ABaseMinion>(DeadActor))
     {
         DestroyedMinion->HandleDestruction();
+        AddSeconds();
+        AddScore();
         --TargetMinions;
-        
-        if (TargetTowers == 0 && TargetMinions == 0)
-        {
-            GameOver(true);
-        }
     }
+}
+
+void AToonTanksGameMode::AddSeconds() 
+{
+    Seconds = Seconds + 5;
+        if (Seconds > 60)
+        {
+            Minutes = Minutes +1;            
+            Seconds = Seconds - 60;
+        }
+}
+
+void AToonTanksGameMode::AddScore() 
+{
+    Score = Score + 150;
 }
 
 void AToonTanksGameMode::BeginPlay() 
@@ -51,8 +60,7 @@ void AToonTanksGameMode::BeginPlay()
     
 void AToonTanksGameMode::HandleGameStart() 
 {
-    TargetTowers = GetTargetTowerCounter();
-    TargetMinions = GetTargetMinionsCounter();
+
     Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));      //set pawn var
     ToonTanksPlayerController = Cast<AToonTanksPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
 
@@ -61,12 +69,36 @@ void AToonTanksGameMode::HandleGameStart()
     if (ToonTanksPlayerController)
     {
         ToonTanksPlayerController->SetPlayerEnableState(false);
-
+        
         FTimerHandle PlayerEnableTimerHandle;               //create timerhandle                          
         FTimerDelegate DelayDelegate = FTimerDelegate::CreateUObject(ToonTanksPlayerController, &AToonTanksPlayerController::SetPlayerEnableState, true); //create delegate
         GetWorldTimerManager().SetTimer(PlayerEnableTimerHandle, DelayDelegate, StartDelay, false);   //pass handle & delegate + params to SetTimer()
+
+        FTimerHandle TimerHandleCountdown;
+        GetWorldTimerManager().SetTimer(TimerHandleCountdown, this, &AToonTanksGameMode::Countdown, 1.f, true, 3.0);
     }
     
+}
+
+void AToonTanksGameMode::Countdown() 
+{
+    if (Seconds != 0 )
+    {
+        Seconds = Seconds - 1;
+    }
+    else
+    {
+        if (Minutes == 0 && Seconds <= 0)
+        {
+            GameOver(false);
+        }
+        
+        else
+        {
+            Minutes = Minutes -1;
+            Seconds = 59;
+        }
+    }
 }
 
 int32 AToonTanksGameMode::GetTargetTowerCounter() 
