@@ -54,6 +54,9 @@ private:
 	bool AddTime;
 
 	UPROPERTY(EditAnywhere, Category = "Type")
+	float TimeToAdd;
+
+	UPROPERTY(EditAnywhere, Category = "Type")
 	bool AddScore;
 
 	UPROPERTY(EditAnywhere, Category = "Type")

@@ -24,14 +24,12 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     else if (ATower* DestroyedTower = Cast<ATower>(DeadActor))
     {
         DestroyedTower->HandleDestruction();
-        AddSeconds();
         AddScore();
         --TargetTowers;
     }
     else if (ABaseMinion* DestroyedMinion = Cast<ABaseMinion>(DeadActor))
     {
         DestroyedMinion->HandleDestruction();
-        AddSeconds();
         AddScore();
         --TargetMinions;
     }
@@ -39,7 +37,7 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
 
 void AToonTanksGameMode::AddSeconds() 
 {
-    Seconds = Seconds + 5;
+    Seconds = Seconds + 15;
         if (Seconds > 60)
         {
             Minutes = Minutes +1;            

@@ -30,7 +30,7 @@ ABasePawn::ABasePawn()
 
 }
 
-void ABasePawn::HandleDestruction() 
+/* void ABasePawn::HandleDestruction() 
 {
 	if (DeathParticles)
 	{
@@ -40,7 +40,7 @@ void ABasePawn::HandleDestruction()
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, DeathSound, GetActorLocation());
 	}
-}
+} */
 
 float ABasePawn::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) 
 {

@@ -15,6 +15,7 @@ public:
 	// Sets default values for this character's properties
 	ABaseMinion();
 
+	UFUNCTION(BlueprintImplementableEvent)
 	void HandleDestruction();
 	
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
