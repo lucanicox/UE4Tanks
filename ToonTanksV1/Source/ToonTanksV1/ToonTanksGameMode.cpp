@@ -35,16 +35,6 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     }
 }
 
-void AToonTanksGameMode::AddSeconds() 
-{
-    Seconds = Seconds + 15;
-        if (Seconds > 60)
-        {
-            Minutes = Minutes +1;            
-            Seconds = Seconds - 60;
-        }
-}
-
 void AToonTanksGameMode::AddScore() 
 {
     Score = Score + 150;

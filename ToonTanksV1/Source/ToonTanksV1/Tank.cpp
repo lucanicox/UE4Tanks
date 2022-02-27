@@ -68,13 +68,13 @@ void ATank::BeginPlay()
 
     TankPlayerController = Cast<APlayerController>(GetController());
 
-    bPowerUpFireActive = false;
+    PowerUpFireActive = false;
 }
 
 void ATank::Fire() 
 {
     
-    if (bPowerUpFireActive)
+    if (PowerUpFireActive)
     {
         FVector LocationA = ProjectileSpawnPointA->GetComponentLocation();
 	    FRotator RotationA = ProjectileSpawnPointA->GetComponentRotation();
