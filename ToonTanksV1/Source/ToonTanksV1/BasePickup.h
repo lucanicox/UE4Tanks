@@ -19,12 +19,17 @@ class TOONTANKSV1_API ABasePickup : public AActor
 	GENERATED_BODY()
 	
 public:	
+	
 	// Sets default values for this actor's properties
 	ABasePickup();
 
 protected:
+	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void PickedUp();
 
 private: 
 
@@ -40,27 +45,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class UNiagaraComponent* ParticleIdle;
-
-	/* UPROPERTY(EditAnywhere)
-	class UNiagaraComponent* ParticlePicked; */
-
-	UPROPERTY(EditAnywhere, Category = "Type")
-	bool FirePickup;
-
-	UPROPERTY(EditAnywhere, Category = "Type")
-	bool HealthPickup;
-
-	UPROPERTY(EditAnywhere, Category = "Type")
-	bool AddTime;
-
-	UPROPERTY(EditAnywhere, Category = "Type")
-	bool AddScore;
-
-	UPROPERTY(EditAnywhere, Category = "Type")
-	bool TeleportPickup;
-
-	UPROPERTY(EditAnywhere, Category = "Type")
-	FVector TeleportLocation;
 
 	UFUNCTION()
 	void OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

@@ -48,38 +48,7 @@ void ABasePickup::OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComp, A
 	{
 		if (Tank)
 		{
-			if (FirePickup)
-			{
-				Tank->bPowerUpFireActive = true;
-			}
-			else if (HealthPickup)
-			{
-				if (Tank->Health == 100.0f)
-				{
-					
-				}
-				else 
-				{
-					Tank->Health += 25.0f;
-				}
-			}
-			else if (TeleportPickup)
-			{
-				Tank->SetActorLocation(TeleportLocation, false, nullptr, ETeleportType::None);
-			}
-			else if (AddTime)
-			{
-				ToonTanksGameMode->AddSeconds();
-			}
-			else if (AddScore)
-			{
-				ToonTanksGameMode->AddScore();
-			}
-			//ParticlePicked->InitializeSystem();
-			//ParticlePicked->Activate(true);
-			
-			//UNiagaraFunctionLibrary::SpawnSystemAttached(ParticlePicked, SphereComp, &ABasePickup::GetActorLocation, &ABasePickup::GetActorRotation, EAttachLocation::KeepRelativeOffset, true, true);
-			Destroy();
+			PickedUp();
 		}	
 	}
 }

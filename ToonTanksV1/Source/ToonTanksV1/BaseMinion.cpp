@@ -23,20 +23,6 @@ ABaseMinion::ABaseMinion()
 
 }
 
-void ABaseMinion::HandleDestruction() 
-{
-	if (DeathParticles)
-	{
-		UGameplayStatics::SpawnEmitterAtLocation(this, DeathParticles, GetActorLocation(), GetActorRotation());
-	}
-	if (DeathSound)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, DeathSound, GetActorLocation());
-	}
-
-	Destroy();
-}
-
 float ABaseMinion::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) 
 {
 	float DamageToApply = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);

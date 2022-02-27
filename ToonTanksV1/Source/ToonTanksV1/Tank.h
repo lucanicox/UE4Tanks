@@ -28,7 +28,8 @@ public:
 
 	void HandleDestrucion();
 
-	bool bPowerUpFireActive;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool PowerUpFireActive;
 
 	UFUNCTION(BlueprintPure)
 	float GetHealthPercent() const;
