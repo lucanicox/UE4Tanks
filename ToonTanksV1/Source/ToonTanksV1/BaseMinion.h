@@ -59,6 +59,11 @@ private:
 	float FireRange = 600.f;
 
 	FTimerHandle FireRateTimerHandle;
+
+	/* FTimerHandle SpawnDelayTimerHandle;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	float SpawnDelay = 2.f; */
 	
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	float FireRate = 2.f;

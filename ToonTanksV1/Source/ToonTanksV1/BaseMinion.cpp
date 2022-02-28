@@ -46,11 +46,14 @@ void ABaseMinion::BeginPlay()
 	
 	Health = MaxHealth;
 
-	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ABaseMinion::AttackCondition, FireRate, true);
-
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
 	
 	ToonTanksGameMode = Cast<AToonTanksGameMode>(UGameplayStatics::GetGameMode(this));
+
+	/* GetWorldTimerManager().SetTimer(SpawnDelayTimerHandle, this, &ABaseMinion::Fire, SpawnDelay, false); */
+
+	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ABaseMinion::AttackCondition, FireRate, true);
+
 }
 
 /* void ABaseMinion::Attack() 

@@ -23,6 +23,8 @@ void ATower::BeginPlay()
 
     Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
 
+    /* GetWorldTimerManager().SetTimer(SpawnDelayTimerHandle, this, &ATower::Fire, SpawnDelay, false); */
+
     GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATower::CheckFireCondition, FireRate, true);
 
 }
