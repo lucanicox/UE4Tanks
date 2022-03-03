@@ -28,20 +28,26 @@ public:
 
 	void HandleDestrucion();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool PowerUpFireActive;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	bool PowerUpFireRateActive;
 
 	UFUNCTION(BlueprintPure)
 	float GetHealthPercent() const;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float FireRate = 1.f;
+
+	void Fire();
 
 	APlayerController* GetTankPlayerController() const { return TankPlayerController; }
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-	void Fire();
-
+	
 private:
 
 	UPROPERTY(EditAnywhere, Category = "Components")
@@ -65,9 +71,7 @@ private:
 
 	FTimerHandle FireRateTimerHandle;
 	
-	UPROPERTY(EditAnywhere, Category = "Combat")
-	float FireRate = 1.f;
-
+	
 	//Movement Functions
 	void Move(float Value);
 	void Turn(float Value);

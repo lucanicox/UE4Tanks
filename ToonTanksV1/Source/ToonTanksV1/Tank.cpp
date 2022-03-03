@@ -70,28 +70,53 @@ void ATank::BeginPlay()
 
     PowerUpFireActive = false;
 
-    GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true, 3.f);
+    PowerUpFireRateActive = false;
+
+    GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true, 3.f); //Inital timer with start delay.
 
 }
 
 void ATank::Fire() 
 {
-    
-    if (PowerUpFireActive)
+    if (IsHidden())
     {
-        FVector LocationA = ProjectileSpawnPointA->GetComponentLocation();
-	    FRotator RotationA = ProjectileSpawnPointA->GetComponentRotation();
-
-	    auto ProjectileA = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationA, RotationA);
-	    ProjectileA->SetOwner(this);
-
-        FVector LocationB = ProjectileSpawnPointB->GetComponentLocation();
-	    FRotator RotationB = ProjectileSpawnPointB->GetComponentRotation();
-
-	    auto ProjectileB = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationB, RotationB);
-	    ProjectileB->SetOwner(this);
+        //don't shoot.
     }
-        Super::Fire();
+    else
+    {
+        if (PowerUpFireRateActive) //Check if firerate power up is active and set new timer.
+        {
+            FireRate = 0.3;
+
+            GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true);
+        }
+
+        else if (!PowerUpFireRateActive) //if not set new timer with normal fire rate
+        {
+            FireRate = 0.6;
+
+            GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true);
+        }
+        
+
+        if (PowerUpFireActive)  //Check if TripleShot power up is active and spawn projectiles
+        {
+            FVector LocationA = ProjectileSpawnPointA->GetComponentLocation();
+	        FRotator RotationA = ProjectileSpawnPointA->GetComponentRotation();
+
+	        auto ProjectileA = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationA, RotationA);
+	        ProjectileA->SetOwner(this);
+
+            FVector LocationB = ProjectileSpawnPointB->GetComponentLocation();
+	        FRotator RotationB = ProjectileSpawnPointB->GetComponentRotation();
+
+	        auto ProjectileB = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationB, RotationB);
+	        ProjectileB->SetOwner(this);
+        }
+        
+        Super::Fire(); 
+    }
+    
 }
 
 void ATank::Move(float Value) 
