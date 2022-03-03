@@ -56,7 +56,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	USceneComponent* ProjectileSpawnPointB;
 
-	//Movement Variables	
+	//Movement Variables	-
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float Speed = 800.f;
 
@@ -66,7 +66,7 @@ private:
 	FTimerHandle FireRateTimerHandle;
 	
 	UPROPERTY(EditAnywhere, Category = "Combat")
-	float FireRate = 2.f;
+	float FireRate = 1.f;
 
 	//Movement Functions
 	void Move(float Value);

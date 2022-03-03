@@ -31,7 +31,7 @@ void ATank::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
     
     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ATank::Move);
     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
-    PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
+    //PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
 }
 
 void ATank::Tick(float DeltaTime) 
@@ -69,6 +69,9 @@ void ATank::BeginPlay()
     TankPlayerController = Cast<APlayerController>(GetController());
 
     PowerUpFireActive = false;
+
+    GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true, 3.f);
+
 }
 
 void ATank::Fire() 
