@@ -37,7 +37,7 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
 
 void AToonTanksGameMode::AddScore() 
 {
-    Score = Score + 150;
+    Score = Score + 100;
 }
 
 void AToonTanksGameMode::BeginPlay() 

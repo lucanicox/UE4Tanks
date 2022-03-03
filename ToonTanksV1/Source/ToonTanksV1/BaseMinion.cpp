@@ -12,10 +12,8 @@
 
 
 
-// Sets default values
 ABaseMinion::ABaseMinion()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn"));
@@ -55,37 +53,6 @@ void ABaseMinion::BeginPlay()
 	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ABaseMinion::AttackCondition, FireRate, true);
 
 }
-
-/* void ABaseMinion::Attack() 
-{
-	if (Attacking)
-	{
-		USkeletalMeshComponent* SkeletalMesh = GetMesh();
-		GetMesh()->SetAnimationMode(EAnimationMode::AnimationSingleNode);
-		GetMesh()->SetAnimation(Attacking);
-		GetMesh()->PlayAnimation(Attacking, false);
-
-		if (Attacking->GetAnimNotifies())
-		{
-			
-		}
-		const USkeletalMeshSocket* WeaponSocket1 = GetMesh()->GetSocketByName(FName("Muzzle_Front_XForward"));
-		const USkeletalMeshSocket* WeaponSocket2 = GetMesh()->GetSocketByName(FName("Muzzle_02"));
-		FVector Start = WeaponSocket1->GetSocketLocation(SkeletalMesh);
-		FVector End = WeaponSocket2->GetSocketLocation(SkeletalMesh);
-		FHitResult HitResult;
-		FCollisionQueryParams CollisionParams;
-
-		GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_WorldDynamic, CollisionParams);
-
-		AActor* HitActor = HitResult.GetActor();
-
-		bAttacking = true;
-
-		GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	}
- 	
-} */
 
 void ABaseMinion::AttackCondition() 
 {
@@ -127,27 +94,6 @@ void ABaseMinion::Fire()
 	}
 	
 }
-/* void ABaseMinion::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit) 
-{
-	auto MyOwner = GetOwner();                //store owner* on local var
-	if (MyOwner == nullptr)                   //Check nullptr
-	{
-		return;                                  
-	}
-
-	auto MyOwnerInstigator = MyOwner->GetInstigatorController();    //store damageinstigator on local var
-	auto DamageTypeClass = UDamageType::StaticClass();
-	
-	if (OtherActor && OtherActor != this && OtherActor != MyOwner)  //prevent damage to itself
-	{
-		AActor* HitActor = Hit.GetActor();
-		if (HitActor != nullptr)
-		{
-			FPointDamageEvent DamageEvent(Damage, Hit, NormalImpulse, nullptr);
-			HitActor->TakeDamage(Damage, DamageEvent, MyOwnerInstigator, this);
-		}
-	}
-} */
 
 // Called every frame
 void ABaseMinion::Tick(float DeltaTime)
