@@ -46,6 +46,7 @@ private:
 
 	float StartDelay = 3.f;
 
+	//UFUNCTION(BlueprintImplementableEvent)
 	void HandleGameStart();
 
 	void Countdown();

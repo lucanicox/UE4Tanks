@@ -25,7 +25,7 @@ void ATower::BeginPlay()
 
     /* GetWorldTimerManager().SetTimer(SpawnDelayTimerHandle, this, &ATower::Fire, SpawnDelay, false); */
 
-    GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATower::CheckFireCondition, FireRate, true);
+    GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATower::CheckFireCondition, FireRate, true, 3.0f);
 
 }
 

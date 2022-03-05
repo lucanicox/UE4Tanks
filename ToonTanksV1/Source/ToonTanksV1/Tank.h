@@ -47,6 +47,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnPause();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bPaused;
 	
 private:
 
@@ -72,9 +78,11 @@ private:
 	FTimerHandle FireRateTimerHandle;
 	
 	
-	//Movement Functions
+	
+	//Input Functions
 	void Move(float Value);
 	void Turn(float Value);
+	void Pause();
 
 	APlayerController* TankPlayerController;
 

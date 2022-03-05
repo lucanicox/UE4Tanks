@@ -31,6 +31,7 @@ void ATank::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
     
     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ATank::Move);
     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
+    PlayerInputComponent->BindAction(TEXT("Pause"),IE_Pressed, this, &ATank::Pause);
     //PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
 }
 
@@ -97,7 +98,6 @@ void ATank::Fire()
 
             GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true);
         }
-        
 
         if (PowerUpFireActive)  //Check if TripleShot power up is active and spawn projectiles
         {
@@ -113,10 +113,8 @@ void ATank::Fire()
 	        auto ProjectileB = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, LocationB, RotationB);
 	        ProjectileB->SetOwner(this);
         }
-        
         Super::Fire(); 
     }
-    
 }
 
 void ATank::Move(float Value) 
@@ -131,6 +129,20 @@ void ATank::Turn(float Value)
     FRotator DeltaRotation = FRotator::ZeroRotator;
     DeltaRotation.Yaw = Value * TurnRate * UGameplayStatics::GetWorldDeltaSeconds(this);
     AddActorLocalRotation(DeltaRotation, true);
+}
+
+void ATank::Pause() 
+{   
+    if (bPaused)
+    {
+        TankPlayerController->SetPause(false);
+        bPaused = false;
+    }
+    else
+    {   TankPlayerController->SetPause(true);
+        bPaused = true;
+        OnPause();
+    }
 }
 
 

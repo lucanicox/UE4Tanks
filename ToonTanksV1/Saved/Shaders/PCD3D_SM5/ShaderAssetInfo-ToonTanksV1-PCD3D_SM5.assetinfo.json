@@ -1,0 +1,2908 @@
+{
+	"AssetInfoVersion": 1,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "3676434BDC62FFC0F194E7846C01EA9919113508",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CE21B809E59889F66B6C39810C16E6D2FD37E319",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "925C0CC2C8424631A2DA6FECA250D0FFCC2C0D85",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A3AE248A6F05AA5BB9DDF24C32A2BFFC45368F79",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E2C58873EE5237CF535FE59E114BCAB3435AC135",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8B55463DC6EBA46E7658781E872CD1A10795C143",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "27E36195FF2A8E5C7EFA35B1A3664D37FBA9F873",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset",
+				"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "931F231FB74937674709FE04BDE3FC7716568737",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DF359B4AC9B32187F758CF45B384EAE9D1313955",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8360B2E05E6638EAA2E6836157E4086C378527DA",
+			"Assets": [
+				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2A4BE9B1E447C0CC116AB74C5A912C9B2633BF8A",
+			"Assets": [
+				"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1882B8A86961777F9222264C52EBE9583D56600D",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4212E1855B4A0C933DE28474B88E21135631201D",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5EB0E9214B12D20C714F8FAC77380E20870BC318",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4FFAF38520D73293207E565918C6B57F7F8E13C9",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AA183A99EA3140216EA834319D300E20373F5E93",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A3609E644F6C533B8F9A24D27AB2285E2D39571D",
+			"Assets": [
+				"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E63575823B1855A5BC7AB84D061AC356FBBDAFC1",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "27D4F827A19CAA0A888D888857CDDC3BC8720D5C",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BAE22A1ABB1CBB248257C342C906E5D3F2723A2D",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D23C75799DEF0E787A73E61A3035F2635A865E7A",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "32D281FF7B9F2B531B6A63F9B56F1FAE852490FB",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F00F2F9A3CD07DA7457B6B987ED11B739EA06895",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E9F51EE54132DCE7BFFBA8FE653EF3CE494B7150",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AB2C31709D966AFC311EA77E8CF43C110BEBDFC9",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A62102EDF7922A29CF3165F3274B8B16B91B7432",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EAE9DA31087D494255A0610F70EF6D831D19D10E",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6CDD0D67BE2F0A1AEAFF29AA516B67EADD0D23CB",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9D722CA47EEA195E2ECCDB9AE1C393D334E460A3",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7A5E8F202B8EC49330571FE4E974F4C1DC111699",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "56B1B26291F2A93036D693A99C17271296B6D747",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5E54F8731E4DB06305E2C922AD4FA917B06EF3DF",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AD3B1EE8E520055A0DFECE9D37E93134BDCCB50E",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0042AAEE9D5EF1F678BC41F998BFA45A32FB002E",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "052826F9417262545AE9470F132F0345CDFAAD45",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5D5CE78AF765895B0E693106AA943D2E2F24E78A",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CB1389442DC640B5EF2F45E0FA861643E40A7503",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/Assets/Materials/M_ParticleBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D1FB50E0582E8C048A57AA9D099CA7B34AA0BA02",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/Assets/Materials/M_EmissiveBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "66DF9F6469718C4F91CCDF3BA544070D64B4A658",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/Assets/Materials/M_TextureBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "84E77B16DB6849A87F7F4730D1BD9FAFFE41D989",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "040BB8DCB003F495FD9AD7E67786CBEADDF172C5",
+			"Assets": [
+				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2AB959FDE5B8C829CBFDA7817F4C2FCB2EED3BB5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/M_Ground.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "024EC85E49EB474FF57B76F7A7097AD71B560D5F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/M_Master_RadialBeam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4EA4A765346C78F5A2589A472868DAF5459498FC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/M_Master_Fresnel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "83CC6FB960EF114A33EE13E38D7237DE3B4118F1",
+			"Assets": [
+				"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "365D11C9E8FDFF8762BF0093C1FD8AD44EB9AD01",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F14A1AA0B954CA9D4CFF202FFA55614BA83B2FC0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/M_sA_Aura.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/MI_Aura_1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "81F8012BC49D5F7B7A5318EC302CEEED83F9EB72",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Materials/M_Master_MetalFX.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "14CE13A45B418615F4C91002F447022392497C95",
+			"Assets": [
+				"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9F420F9F55488322695E089826C50E6C0261D89E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/sA_PickupSet_1/Levels/LVL_Showroom.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "55A6A46108BAF333B62D0075936E1C68271915B0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Prime_Helix/Materials/M_Prime_Helix_Visor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5DDD10E33749738E426FA4A93C276DD25329EA83",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Prime_Helix/Materials/M_Prime_Helix_Visor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "28575CA265C8D64C5E14CF4C1A3E2A8F25B5A55C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Prime_Helix/Materials/M_Prime_Helix_Torso_V1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "555A94BEA2E25494CEB7432092C27F969AF377CD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Prime_Helix/Materials/M_Prime_Helix_Torso_V1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E3B99C37D431B540361F9AC1BAFFEDEA3919C8F0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Prime_Helix/Materials/M_Prime_Helix_Limbs_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4FEC9E3E04551E53314AC1EB0FAF4107C2470F77",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Prime_Helix/Materials/M_Prime_Helix_Limbs_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7D0855856EEBD22425F6B3F4A39F999748446EF0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D420621DBAE1995F77C01F1498884342057B8D8D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/M_Minion_Dusk_Parent.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9D93539C099ED4ABC3A75C1CC8B03014CD669B41",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/MI_Minion_Dusk_Core.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0C25FE2A536B05BFD718B9180704B27DF328222D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Dusk_Minions/Materials/Shared/MI_Minion_Dusk_Core.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F03220EE6454E2C125578CCF2881703F0798B425",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Shared/M_Dawn_Minion_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3A6C5085D008B9CE0D366AEC2C42F4A1C851C24D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Super/M_Dawn_Minion_Super_Core.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Siege/M_Dawn_Minion_Siege_Core.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Ranged/M_Dawn_Minion_Ranged_Core.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Melee/M_Dawn_Minion_Melee_Core.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9F234A455BEBB8A82827F3617FD85A14ABD1DB84",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_White/Materials/M_Buff_White.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0C6E621265C3DF801386C3903E5DEA9F4EE6B7A6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_White/Materials/M_Buff_White.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8A76C02AFC882DAB5251D40759EB2A83FC03F84F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_White/Materials/M_Buff_White.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "95B4194290D4B71266C3A12AF07C3DC1276904A6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Red/Materials/M_RedBuff.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Red/M_RedBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FD9DDF8877D1F4C81F780ED0D1EC992487D7B500",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Red/Materials/M_RedBuff.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Red/M_RedBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8B136F65E11F0B576018A4618C9E8D8177493F39",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Red/Materials/M_Red_Buff_LavaDrip.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Red/M_Red_Buff_LavaDrip.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C3CEBA9EFE1B908F01169A42ABA83880D5221D8C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Blue/Materials/M_Buff_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A946FB0F312E6E6C1771D54AB90AF4DB9B01B36E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Blue/Materials/M_Buff_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D42C111716B202F483CCFA9EA3FB93C71912AD9E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Black/Materials/M_Buff_Black_Creature_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B11DE7F823E2FC362475B2EBC3EF814E5088D2BC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Black/Materials/M_Buff_Black_Creature_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A40563B032B68BFE9CB1929C16F7718135E262E4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Global/Eyes/Materials/M_EyeRefractive.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9A1D9BEEECB11AF200B9914DD39F45CB0BA2938E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Global/Eyes/Materials/M_EyeRefractive.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BBD0B3CDA391EF3A7407A4460554834DCCCA5B94",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Green/Materials/M_Green_Buff_LavaDrip.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A6C1F0F0CD91631ACEA9546194C46BAC87C6A9DF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Green/Materials/M_GreenBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "86A7BB04103F13B5ED22060157015EBC1BB3E409",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Buff/Buff_Green/Materials/M_GreenBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3AEE2EC038CA8CB455A321334F2083C399723E9E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Maps/BackGroundAssets/HDRSky.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CCE0F90E2BC8D10B97287D8134248821E475861D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Maps/BackGroundAssets/M_AssetPlatform.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "23787F104162BBFB9D62B35E9D5FDEE72EAC143D",
+			"Assets": [
+				"../../../Engine/Content/MapTemplates/Sky/M_Procedural_Sky_MASTER02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1DE966990D4D65C7C726AC140C2DDC484A356696",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C9C8E782F3F46C917FBB4556885514C762EE6E02",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D51FD1443DC4C48B724346ACB960C6A4A4BB8CB7",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "36515B0B4C9FB11E4AE29663ED31A36A35EE30D2",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2C689D8EB30EE8AB7E0C31A1DC5F660B7EA63011",
+			"Assets": [
+				"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5A375044DFD839876804128CDE082E679DA13F75",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/Assets/Materials/Base/M_GridBase.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1CF6256AEA75CE35616D5A4E1E081AD561CED898",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/Assets/Materials/Base/M_Grid_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E028BAA145F51B7174E07C267A72EFDF947A2E7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_BaseColorPalette.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BAC001FF87B76168D24D09D432DFAF217D18E228",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_LiquidSplash_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B92AB06D69B562DE233C9F431CD0699CBF78D1FB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Prime_ShadowSmoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9CCB1730A885B1C49905E610EDAF05BC30C863F1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_VLerp_DirectionTint.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AD78AAFCA969B058ED73DA81F8D7DB0793B01D72",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_ArrowFlare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A324F773E7E14A2D2882F283D4CCF2958B8ED873",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Tomahawk_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "011DCA780231F7E7B80370B3E9065195EE3CFA01",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_TotemBombSwirls.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/MI_Prime_Chroma_Energy_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "121D48740A28A4CA18A4B72EA39C0345DAEFBF4D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Energy_Sphere_V02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "965C1B36B5F1F5B3BFE3017DD3ED029FFF0AE9CE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Val17_Heart_Gloss.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4FE3282AB0F6C2789225C1FD03EF54E56158CD16",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7BBCB37D0951C9147F56552B6C25552EB668B768",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Destination_Marker.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "39DCDBD6E0753EE2046BF227862F4514A9E75742",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Destination_Marker_Arrow_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EF249CB6ECFE501D025A5F803752528AAC329C2D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Lensflare_TB_SoftGlow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6F62E939360F602AEFCA52D8AC612D4AEC816A7F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_LiquidSplash_SubUV_Lava.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "788526E9643A7EA45BE28192D97253F44FEB6E70",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_ParticleRefraction_SimpleHeatDistortion_AlphaControl_Fresnel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2FF92363739975EC4B4D6CF8BFA5DC787962A5C5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Buff_Red_SmashImpact.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C75DD180E947CD6061531F1C9E35D9242A17DF92",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Buff_Red_Rock.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "33BA192DD3DDC31814BE5B4A8F1F78AEAFBDFBAC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Buff_Red_DebrisChunks_FakeLit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D8F3817BE28B1479CE15D8A9743F48E736333CA4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_BaseColor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7331E9116BA76C4D8316D557160704BC28991321",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_BaseColorPalette_EMS.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C6FC4028D175EEDDB454BF5E8A176996F4D64D74",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_AlphaTest.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3ED2053D9F6431CBD3CB5F26E6D75AAE997701E8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_Glass.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2FEE244180D91F87ACF303995D4DC9F2802F4B71",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_BaseTexture.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F24E6F8F0B85CB27331661F0341DB6AF4934AEDD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_Metal.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7875A918DAE8B7A5DBAF1F889115663F6A6E392A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_Plants.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5F614B65235207E3DCE4AE6BC7FE00799B007739",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/AssetsvilleTown/Materials/MasterMaterials/M_SubSurface.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BF99C28E67ED014CE78FCF5CAD1EBF0F1F13E6AF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_WateDroplets_Simple.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DF7290E99CBA3237765410CA966485C8955F217E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_WaterImpact_Cylinder.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D3C68126CE33FE76CFB224693015DAB76AC66240",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Textures/Water/MI_WaterImpact_Cylinder_HugeInner.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "34CD065AFE0FA67E179502E95BA8E71DB13CE8A2",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debug/Proto_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2D43841E143CA9EFAB502B26915D9602EEB3B4AB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debug/Proto_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F02E1CAA841715DFDD85D39FDDC4E01F72B898B3",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Targetting_Teleport.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "753B8AA0586F0C01AC60F128D39B6A7026AD9B59",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Opaq.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Opaq_NoParticle.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "08AC73BE4ABC6728BE01A96C2123851F1BB3455E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Opaq_WPO_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E2BF96C0ED03B3923EF40F127F9971C5F6889AB6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Trans.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A06D2BA7C834E536C905B414D31B357187B383FE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_VolumeTargeting.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2398C1292DC0634F952085E19955BEE0D34109C8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Opaq_NoParticle_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4AF6749DD750B862163D4E226CB69A0509FD0424",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Ult_TargetCylinder.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6093E6B32F3E46C2D96D7B00BA7527A2A1F39BAA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Trans_Thin_Moving.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "507F96A55C55ACA4CF4F8143EEA7031106BA35FA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting_Trans_Thin_Sphere_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5D4FF76638669997D75C163C4DCBCA35DF8602C0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_Weakness.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2FFEC2148D626AD5CACCE5B61A6E2A704EAE110C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_RecallHaze.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D2320EC00EB36138210C0A811A9130007D18BCD0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/RecallTriangles.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A9A1641E7DAFC4D68EC6B4C352A3860404998257",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_hardSpark_Alpha_Cheap.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AB88998D47A32B724C3A9A8CA3E375EEEDF24885",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_hardSpark_Alpha.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E9935B026A549DC48B71A3A8FEB8778EC785098D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Spark_VelocityLerp1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1A0F12BA1B8A13EC80D7F029E8698B5C09FFCAB8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_TravelModeLooping2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A917F117F859601D4880D9E29E020B06B1D656C5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_SteelImpactRefraction.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C2B938DE0F051305A1A3B7AE98DC52DA51D71475",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_TravelCameraRefraction.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6D80855C2A8786B0B459035882B4188314505280",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_TravelCameraLines.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "326D5197DE6A2CDD7018738E89B90045C36EFF90",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Reticle_Timer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "074F8E13A25D50FD0AB7960526FE71402215787B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_TravelRibbon.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2E7147C9FD5DFBF547334E5C554507C55EB8FD36",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Stunned.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3A5E06ADC6CEE08CD5127EE90048D37926F7578C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_DotsStunned.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EFE586DFABAD52A63F31F005390A305DD0334689",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Lensflare_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C19F36E5AD18863736B245E109E08ABFBB6D2C46",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_SpeedTrails.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "95D55EED90FE0AB91CD36A74755D83695DE6A3A9",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultParticle.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8BFB51E05136360F4DDBF447F362CE935E24F88E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debug/01_-_Default.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "173DA2C7F596D4DAA449F173AFC8B55A4B4461F9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Wisp_SplineThicken.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E5EA9E79C9C7E0A4FD9C3E1BD18D3BFACA6C2057",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Slow_Spline_V03.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "86F2214A74DB0B274EB9F1E05753DDE8E7850EAE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Slow_Spline_V02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D588A158B6C132C7FDDD9A129CD786732EA62FE8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Inky_Smoke_Burst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FD1C282752147EE465489BDB78EC2751BFBA75F5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Torus_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "42E65961B2936F50FEA716B000A7A08B6B5D5839",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Shapes.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E4D5F635A8FACDC2C51C26EB0D04CE8E1C3E9C25",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_GengericSlow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BD28BB18A1D863824A80E1243EFC019336C4E29E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Spark_VelocityLerp.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3C168A54BE89716CDF06E8B4F4DDFB678D399732",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Shield_Mesh.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5E8329FB6947DAE96BEF0E4868140A106C0A3A41",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Shield_Mesh_Sides_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2E45A8E6EFE9794C0730A4DAC1452CF143836E1A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Lensflare_TB_Soft.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8327C2E181E0C594F95B96DAC6055EA8FC9CBC56",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_hardSpark_Alpha_GPU_Random.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2ABE37556188CE52853339FC2B64971C376378F4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/m_ShieldImpact_ElectronFlare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E98FE19DF221733C3386DB1D2295C55EDF549B1C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Spark_VelocityLerp_WorldColor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5F997E0A5B35B2CF6333D99199133A5DAC4CF4D9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Projectile_Wind_Rush.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "81D582DC2BA3C4C4965F62BEF9B7CD7673B75F5B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_GlowPoint_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "09026CC76D9BCACF01B37349AD9807B10616715B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Explosions/M_Explosion_Smoke_Spears.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EC0B496979EC743BD769E5B6C691C31D5C06F425",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Visibility_Eye.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B6D6933253D8EFACF375A7B737892A621B8E43B5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_DarkFlare_DistShrink.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9E7A1D148E585DD890D7044650F91134481DDF8B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_Wispy_Pulse_Dense.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "855BEAADCE060DD90366AC337DDE86736FE29364",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Basic_Shockwave.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B62EED2ABE095F3BDD937E609B1E50D1C1AC6CB9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/DirectionalLit/M_GPU_Smoke_SubUV_Ice.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "ADAA33B2F2D868B4F50F8538BE51F96B315823AE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_RecallPlasmaBeam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C97CE9E505D2745B587C73A71AF673107996D2D4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_RecallBeam_Stretch_Up.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "538702494935AA57897E2AC26A2D9ED64A6DC39C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Motes/M_Snowflake_FlipRandom_GPU.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5B76D3B4F61237B0FDA919BB7C66329BD2CCE68B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Dust/M_VenusFairyDust.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "58CC443E8DC6CF76106B8618392F567D76E66BD8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Meshes/Splines/M_Spline_Preview.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "80237C567AC652B0FEA71D04CB649C9CF8554AEA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Energy_Ripple_Spline.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DDE46A26811B87ED241A33BB1F1789A6A22E361F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Misc/M_Spookyface_Spline.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3561923198C066C9C31622226E90F401355DB325",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Recall_Torso.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "542D9BD62087D29FDEE94EBD8549B76D696A8190",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/MI_Recall_Rings_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "71A778128D29E7775C44B271EFD6B5B8305E4A87",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_RecallCylinder.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "03943B9B8D28D239C13DAA68764A3C7C30189E3F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Recall_Wrap.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CCC56152C32730A605BB03AC9249C5F5C6B838DD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Recall_Wrap_NoBanding_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "98575FB2C693ACACE95F4730A4B3EC18C219E403",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Recall_GlowingDots.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "01568B3CB7A46686C4BB97D6CD6EC4D1BE275FC8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Recall_GlowingDots_AnimYMask.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E5BBCD0AB4D4E7F535A3B288B3581C3D7FCF2FE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Radial_Gradient_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "38EF35BD4920D12F98B8420C48A5ADACAC11E8DB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_Plasma_v5_Flipbook.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4B9DB84FBE8F81DEBDF6C4AD997C8DFB21B55C3D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/MI_Recall_EdgeFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E6A5991FB5B2B98A12EBD6A1458699FCA8D8A8B9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_CubeMask_Flare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3243D2E620086581FF223D8518D522829F630A15",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_CubeMask_Flare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7BE8DE6152DBA51463F4C89CE9FF50E259881202",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Motes/M_Snowflake_FlipRandom_GPU_CloseCam_CheaperBlurred.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EE4DD2738258A0BD3E3816EE9893584C6D2FC471",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Misc/M_Shadow_GhostGPU.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5B1E736A963E8450F91A8BC1C4B106CC1DE4B8FE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Anime_Flare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "64C43979C4A8FED5260E966493EDAE5F70EEC803",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Inky_Smoke_Drift.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "97FB46013822F39599A2874006F83F289A98E616",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_MASTER1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DB7C0E0AE4CAE22EDF4A6402EBF78AA17ABB24C8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_ParticleRefraction_SoftEdge.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9913039547810541309F1D8EE8E41EFC34EB51A7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Recall_OuterCircle_FX.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D2A4E1DBC8839E7F27BC74C8CD0E29F6D466FF74",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Recall_Beam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D4EBD5E0AEF3B756B73D603C13B1EAE44DE519CC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_RecallBeam_Stretch.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EBB7F7D88681F297DCFCB98F24A8CE7CDE2638EB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_Plasma_Keyhole_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C5311AC7CDC5D51502E8BB8B4E8D4234BEFA6D3F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PortalStone_PlasmaBeam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8C1EFA22B64835608302080425FC7994FB853A6B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PortalStone_Beam_Stretch.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "81223A246971F08EBB779F5B6CA60F71ABAC0F8B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PortalStone_Beam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "71DF92FBF70D19CA0B8826CCB45930BAC38C88C5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Dust/M_Poison_SubUV_Swirl.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9699DD0DF1EC47710A8FEA22F8E70939A295B387",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Dust/M_PoisonDust_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8BB6F0478CAA7CFEB1D10EFB54B264DCE37D663B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Soft_Spark_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FEB17D0014AC973100101969EF995BEC5B54CB58",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_CleanseBubble.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "61E64FD368953AB99C6076353124DF317CEC0F8A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_TacticiaAirglow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7E5072642D73E322C01803213FAD7F4204866897",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_LevelUp_Spark_VelocityLerp.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "99EEBC2AF46A61ED62C9736F62A74A61B87D7D79",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Shockwave_Fresnel_Refract.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F2C2A262078A87EA2D92A4E68213CAE01AF5CA6C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LevelUp_Rings.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2D51A7B5D61430DE5E86D899D88A90CB0ED3206B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Flare_Procedural_Noise_Tex_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AFBC52DEB7BBC01EDC9727F54ACEFBF548902D4F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LevelUp_Beam_Chromatic.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2374AF16F20B4F91C5F906FBCBF88E1BDE9FA85D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/MI_LevelUp_Beam_Chromatic_Shell.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9C7F3594A541EF99E2B26FD2B3C66DBFC51FC8CD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_CleanseFlare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F79B244E34C1502370DF07B1F57FC7D727CFB0E3",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_LevelUpPlasma.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1EF9B939724D1432BBC7B59017F8E7932A1A6DB5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_LevelUp_GroundPlasma.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C68EB614620FEDB1FAF6789F516FC61AE82CADA3",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_LevelUp_Bubble.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8FFF5C7C7A60445EF5F124E562640CCD6A11709A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Particle_Decals/M_Jungle_Fog_Particle_Decal.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0AEE99FB1F9A5863DEADD1E841265DA337371647",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Particle_Decals/M_Jungle_Fog_Particle_Decal.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "77E59A179CE568C68B512C0922DCDFC6618FFCF9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Particle_Decals/M_Jungle_Fog_Particle_Decal.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2B59DBA4185FF796B5D827A5C56BDE014F90B5B8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Jungle_Fog_Particle_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9A9942E3CFEAF8E037FE23471FEEF8F4B972CC2B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Jungle_Fog_Particle_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "141FF895D1568C2AF8E665C399DEBB6EA8DF3E3D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Jungle_Fog_Particle_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CEE0BAC6138CB376BBC4F16A3926B10110329A12",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Teleport_Refraction.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "72799AF350675FB62120BFCFCEAECA28CB21A398",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_CC_Shield.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "95B65182E1A68D61A9540F156FF2F9864714EEDC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_CC_Outerward.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B907AB15574E032CAA4544D993F58CE4C4F3F677",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_CC_Burst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5320571098BEE1CDC3D8D052E74C2A14EF32588D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/VolumeFog/M_Fog_SphericalDensity.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F9647FCF5252558BCA19388289A4352C16BB61EC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/VolumeFog/MI_Fog_SphericalDensity_Particle.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "11A3E35857E735DD2CF3A29E8AECCFA244A82C6E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9477806C916719290794A07DA23C1660153F8860",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_DOF_Rand_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E4A573010C665D59486BC30C2F6640BD1CAAD360",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Vamp_AimingInkWings.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E1030E693473926FC00539543BF01F1AB49A8FBF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/m_VampUltSwing.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F75FD96B0AAA9D47FBB1D59BD96D9E8FAD23691B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Execute_FaceMask_v3.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "631CFD3D3AB7D8D4C48388FAB1A5384F5DD42DBB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Ice_Halo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2F78A3F0ABB6023DED9FFF9F60AF1A12D89CD5C1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PH_Orb_FlatFlareEdge.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "56F896D5137B74F26E9C630A9D52CD8648C6413E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_MaskedDeath_Ash.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0580CE246F94F16123CE60F27CDEF6DFA6A46DB7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Execute_FaceMask_v2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A96D56BE5A5C0AE1292B5A974DEA3245068FFFF9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Execute_Blade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0FF194877133C09A41DC439D80BB7F3A4DB03747",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_Paragabloon.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AEDC3B165609AF375AB663F165B80F507888CF94",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_Paragabloon.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8AFB21434F364D2A25519980ADC6B638AAB17AE9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/m_ColorEmbers.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C35A384D76C7B7524075E4386EDD6DAA82380BF4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_Paragabloon_Imposter_Sprite.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3E18FBCE69EF18E11E62FF4B4BA765CE8A84447C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Chains_SoftFlare_ShockP.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "496DD2D5C552D0AC5C82464199D9BF40A02733AA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_ShieldFlare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AD436D95007BA006696942973A4270B357831BF5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/m_flare_simple_depth.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "10AE85523A7800B5BCC4EF22958D9363DCE407AA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_FX_Fire_Flamethrower_SubUV_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9269FFA52A6B5D367DC84D71A31B879A97E1AAE9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Death_Fire_Cheap.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A04870B612F22AF53ECDA4DADC9FDA7D9793DD6A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Small_Rocks_Lit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9814301A7482DA0D5103B79D1CBF80E55301DC84",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Death_Fire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C80B3BBEECE469417340AF9208A49CA6EB509A17",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Smoke_Wisp_Ink_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "190E5140982742D107E60B4CD279782D7F828030",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Birds/M_Zen_Bird.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E85D6FA3A8AE664F7EC7ED75EC690BEDEC5BFA62",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Birds/M_dove_subUV_lit_GPURand.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0822DAE01DF05AC1FE4B010B89ABF3AA49060D21",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Radial_DarkeningCard.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0785D80786B4C28E9E9627BDD19543FA981D83E0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Bladeturn_Inner.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0AD376E983AC6E7B54F9154D1BEA483C0ADD0E9D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_EnergyShield.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DD362BBB37AE72BF7E57EF20A2CD7781295BE907",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Bladeturn.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AAD278EF3EAC007228A717DDC6A75B9800E7DC1B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Embers.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "90F49097572BBC4D99C800CB3895F2D23BD0B067",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Magical_Threads.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4D8E905204A207A427C3B4E9620D8D6C69956C6D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Arcblade_Smoke_Trail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B4D237F991170C06D6EB3228E7EEBC9FFD202FD9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_FX_Fireblast_SubUV_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3A2D352F2A70E3CD58D7218AE86204B09FDD8DDB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_FireDmg.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4B3A34A8D8952C559C08EB2B07F561E702189DAF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_ElectricDmg.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4EA1EBD07F2FE32CCBB41E36EB14C8FA3FBEF42B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Electricity/M_Electric_GPU_SubUV_twoSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E4BB599254BE4FB222A4C66C41AB865E456D57AC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_ElectricDmg_Default.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "80BC8D13B61F58809FF5EA14B449919B2A9A7CAF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Electricity/M_Electric_GPU_SubUV.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Electricity/M_Electric_GPU_SubUV_Blue_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "43C5A937548F0902E700FBCDF55CC7914CD8E9BE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Hud_Dmg_Flash.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E26A8D332801A75F7956D733D7E2C24AA4F65D91",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Reticle_Timer_Countdown_2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DADFC0CF1EA2C6FA406974336327D725D1680F14",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Low_Health_Screen_Border.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "110CD0D2CD96F89F466DB950C16A5A54B51B772C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Low_Health_Screen_Border_V2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7CB86F20EA4AA258B886C5D7CB0E1BD839C0E9AA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_LensEffect_Energy_Bottom.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D6B7F07B830A72DDC27B3912A313BB163DBDECBA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_LensEffect_Energy_Bottom_WukongEvasive_GreatSage_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0B9903904F5315EE48CA25165E71493405051CB6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Lens_FX_Water_Droplets_Round.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DB99BAAAE0B2C2336265C3C7EF61CFE3359A3F7F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Lens_FX_Water_Droplets.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E3031C7CB3CF1DAF037CFB14EF0C49FBDD5958A1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_LensSplatterMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E13A49DD4D487A26BFCDB4D378DB45CC8E5F2804",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_LensFX_Debris.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "17C3AC3B61FF8F40E7E12E0E0BD9DF26B3269547",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Camera_Vertical_Rush.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C8C7FC04DD0D25D2584EDB26C0611BACC5916AF0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_CameraLens_TakeOff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FE2B019CE02497D03B1AC1A3F90ED08C03FA4352",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Liquid/M_Lens_Oil.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "42F09C3D4D9CD8A1CE00A5B4E2627C5B98BFB3FD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Camera_Leap_Burst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8FD8CF10E1147D18434D623859980BBB0270D1C9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Camera_Speed_Burst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "33D6028F49D3CC00AA4DBE9BB1370A24F46C9041",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_CubeMask_CPU_Flare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "067D93DDDAB0C7A25B6003288ABF5616D3D5D96A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Camera_Pulse.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "85B02154AC3E6AC827DEB6FAFFBBEBE39799A9DC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Camera_BootsLens.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "44722FF7E5B23CCE81CAE0207A9D99858B3C6E78",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_LensEffectGoldEnergy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "42A7C4C459FFE2B4D761C2E6F9F3CB0366E9B811",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Liquid/M_Lens_PumpkinGoop.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Liquid/M_Lens_BlueBuffEnergy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "710A3FE6CB30D2F73DAB2B885A58817AC7245326",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Bugs/M_Mambo_Insects.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FE4EFE703A009496628414F47598C1FBEC63DA7D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Liquid/M_Lens_BlackBuffAcid.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "095804BCDFAF03EF2FC710B93DFC61EC95AC46D1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_DustKickup_Simple.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "16F0E77F4EF48CFE4CF8B025870506026029923B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_LensEffectChromaEnergy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A504429350B92691DA80CD3DDE1480FFD68324DC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_ShadowPlane_Distortion.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B12E813365E7B893F08B62773CFBB76C991BD9FA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_BugVision_v1.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2C1BD466B02EB71EB3B2C9198A3482C3B9508E3B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Blind_Whiteout.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "08F8B831021B0979D985747AA1C248090AE7195F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debug/GroundDetailBasic.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "491B44D32DC0D75426C01E0049C14A7F4AB47C82",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PhaseLightBend2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8BD632E4D9E0272D40A63F8EB981D54C4A40646B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_FA_radialEnergy2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0B5FAFF23EAFDF192746BE72D3EDC438A468E7D1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Prime_Chroma_Energy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8A5C463A8BCD0256CEAEA0D93EF1D835E4299AB0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Buff_Sphere_Heart.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "690858E03362641EE8168D6A4627F7B5A0AD0C5E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Buff_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "569B64E27AD600444F81BBF23C6D0784F8DBBE22",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Boots_Bubble.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "472E703C4BB0F5DEFAE6F912A4E89A911711BD72",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Boots_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "94CD5A3931348017D34AE5EFE18394ECE3DD5951",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Ash_Chunk_Unlit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "93A4B7110ABBFE0F4050DBE85C2BCB753B7AF261",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_InvisSmoke_MasterAdditiveWarp_Emissive.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "67CA58238F0E39901C4E5865A2574B3389E46C84",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BF4FF82B7AB558165120CC051EC831BC6FAD6376",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B60107C5C2B444640A65D060D7C41B710BAE49E7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff_BlueBuff.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff_BlackBuff.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff_RedBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EC87434563E9A2C37EED59762C33AD14E9FC425D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff_BlueBuff.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff_BlackBuff.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_CarriedBuff_RedBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "96D22F6638E1B5DA684CA95337C3A8BC2F1A93F7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Orb_Color.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9F105937D9BEB3219939803CBC6EB4D902E247FA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Proto_Basic_1Texture.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "80641B31491EF30229AC4DDF4869322213BD17DD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Flare_Procedural_Noise_Tex_Glow2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A4DAA15DCC4A2AC7C30BEA25EE9ED5517245C454",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PH_Orb_FlatFlare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "871227A7C3BA7FC0BC6CB6107063D055F383F503",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LensFlareAdd.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F75C6DC2491F0B75DFF9A15955378F63CB657B5D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/MI_LensFlareAdd_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "10E70C205C3810AB4E2179080D5C548DE2453C97",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Orb_Pulse.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B34BAFC6E508F9EE9A2F9D51A8DF9CF4B08D6D2F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Buff_Tetra_Shield.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6E0B0E4304B956D037847B9FEC34EF7F3C7BB704",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Orbit_Spline_Thicken.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8EF6B1C66402954E11759878E599E6466E4C877E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Orbit_Spline_Flame.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1254B514B67AB90B7C34ADEFA46047A6BD7DC966",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Buff_Eye_Heart.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0B0088A4AAEAC6C13EE377A4606D43052855AAE9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "241713C66C2958378BB9999AC53A8EF85436C87A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_Shockwave_Refract.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0EFD2FCB25C89BCFCCD12D041F9DBEA037ADEA9C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_MinionMuzzle_FlareInternal.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "23F12C4665D0401FF310E6D7F848A9FBCAE19AF6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_MinionFlare2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4A7EE7405D75B10BCB753807D466255D5763A904",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Minion_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "31A7BD9E2C66605F163578E229B1AFA4D4F2FF31",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Tri_Test.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E3C6C7B7A03DC7A2C09E96B867146C5EFD10B91C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Lensflare_TB_Soft_LDR2HDR.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "22AA1F1CC42F772730C0CA5B14CA1192C9319615",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_PrimaryTrails.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2F9A2A73207C0D7822A1DA51A10DC213B5E9312C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_PrimaryTrails.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E3BB7C1D56C41F0A304CB2A2D744A9D1BD1AAB99",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Minion_RangedBeam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2FDF239E2097111B7ACF92CC219C44F742A4F089",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/DirectionalLit/M_Directional_Lit_DepthSmoke_Master_ParticleColor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D0A2C2191FF2DBA24EE152FC54FE7BEE611EDFC6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Helix_Smash_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3B4C8E37C795FF810C1E1BBCB326954F24CDC852",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Electricity/M_Electricity_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B2BED3496FF67BD8FF04E36224663087E9E59603",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_ImposterRock_Translucent_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "77D8918B7DEDE9275A3F4EBEB24F74684CC07614",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_ImposterRock_Masked_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7523440397DF0259609D9F5AF6C97B47076CD00B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Debris_Fast.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "01E88CD41FF5F495A328B8C549BA3EFE7ABEC586",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LensFlareMaster_ParticleColor.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "31DB48D2D82D9E5F0EE9B8CB96097B9C3C1334B8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/MI_LensFlare_Prime.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C976BD3C14AD4C85061E5A98CA87E8E1606EB380",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Photoscan_Master.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Agelsjon_Rock_Inst_Photo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FC2B71933BEF573C8650B25988415C5E651E07D0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Photoscan_Master.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Agelsjon_Rock_Inst_Photo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1A373B2EB4A8FD4E8D862F6B2212C15801698128",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Photoscan_Master.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Agelsjon_Rock_Inst_Photo.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4477734760EF4C8035D5E53409BB0EE72E0EBE6B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_WaterMist_DepthFade.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CC52C1E8E9A6C44674D587CE94AB546670DD071F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Sliding_Water.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "555760D0EFE0C8B1C89537BBD516B67AE63ED7B6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_MaskedWater_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "791846D76553734861516E10C712572E1AE46F3E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_MaskedWater_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "89FA077FF31038ACBCCBD2772CF8EA7AEB7D0CA5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Distortion_Sphere.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DB924EB36AD98546330DD741511E02CD83FDB450",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Rock_Round.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DB59C6FA3DAE305396C4CF1654F2C91BE87E25FF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Rampage_Smoke_Cheaper.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F810CA40EC421F86E8F33004EECA40C53E8D7386",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Wisp_SplineThicken_Small.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "644D90D5392F8B44592BD422060C990AD782C42B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_Prime_Smoke_Spline.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C87886B23AD834095395BE478723FF3890CE93BD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Magic_Smoke2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AC02A133A7D35FB0FC012E3FEE7784B8F742A693",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Prime_Energy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "70B5F418965F77D5F8B4D2C2CC21E03DFE66FEDF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Rocks_Pile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "316BC35844CEBCAF93A56E7D85A3BE54017E0882",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_SmokeEnergy_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4A12EED9F4E2A809BECE2397CE1605721E453A15",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Heal_Bubble_Explode.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D54CA9790F97CAE7677A49839BDE7A4FAEB78B22",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Sphere_Spoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "00CDA1E36A56698D67FF473B26D9A5080BB0B063",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Radial_Blur_Refraction.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FF9B774849B5F17DC08615FDB9F9D6C42DF0ECE2",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Prime_Bubble_Grow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A2CF3146A2391DCD8C522E3C486E2B91F3C60BFB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LensFlareMaster.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DD2DAD0D971C60411FD23344003058AC45050302",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LensFlare_Particle.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_LensFlare_Particle_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7A527AE5DDFF2A36A7FD44B6F988CA8285CBD9C9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_PH_Wisp.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9FA60838F9D56EDB49A2BAF7BEAB21065ACAEE40",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_PH_Refract.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C3D189063182AD17338C44DFF557BFEC7BB7EA22",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_HelixDunk_DistortClose.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "159F3A301E2F37B5B752BCD6864E9FC4F576214D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_PH_WaveLow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "483D802556FC53681913A95B3CF7F41A8C93D2F5",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Shockwave_Fresnel_InverteRefract_Soft.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A324264CA5023DB232D07C424220C922CF751057",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Plasma.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3DD2CE05E992673A3597B7E26651488D507113D3",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PH_Orb_Flare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B9E55276731D75CB95A8BE35142E7E0C2F2D03AC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Chroma/M_SphereChromaWisps.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "464CC3E51ECF68765FBD82D04FFA2B63A68A26D4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Verdict_dust_burst_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6CC1A214B95662CB09CB2A06889385114E4A4962",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_PH_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3BBBE992A8767BB394434525636DF7A69462CD6E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Orb_SawEdge.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8A14B6FE3BFA6EF8A5C626BC481D9B7D90F7BDFB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Beams.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3362D3FAAF9625DD1F53E8AD83A6E6AA4493A88C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_PH_Warps.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7BE1ACEE487E27B82F78DED930C776569D4EEE20",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/PrimeHelix/M_PH_Spot.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DD3E0348820F6267C7B9CCDFDC69425767FBCEA8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/PrimeHelix/M_PH.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0917147C7CD5A44F135D3EB150A20B32CB3ACE71",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PH_Beam2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7F4FB6F4D7E97525D6406556786F281EFD2927F7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_PH_Beam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "281ED85E99AB18613F3B23398AE276F860B4D284",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Revenant_Primary_MeshFrontTrail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "154009D1B9AC694EC71D05B87CAEBD4AB64707E4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Burden_Projectile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F9A7BD2E4A813A5F74AA64408738FA71344ED4BE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Burden_Projectile_TwoSided_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A12AEA924061747566D74DBFBD524E1B7337E932",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_Revenant_Primary_MeshWindy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "759D2166A179F6B0A14D6EF058437A057D44AA62",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Mortar_Trail_Energy_Color.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0E6830234439F20B8F00ADEEA708F84EDBDCCEF9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Mortar_Projectile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E09003984936B9179F8FBD2C06F1EF07A3F591E6",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Water_Footfall.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3D4EFB9BA942111D3C01450C643E232A190FBBE0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Water_Drops_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8509401A2DF9C65EA54FC665DBF8048EF96959ED",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_WaterMist.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5F22869BA931D15178517EF30BB4E1018C0C3A08",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_WaterImpact_Strand.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E02B9ACB27E899515085656A124A13CB080586A9",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Footfall_Ripple.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EB79DD053C47700F61C490D00F0649B10432ED6E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Footfall_Refraction.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "441DA10C460572E7D8489295DAF6672C72CC0F51",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Lens/M_Prime_SPAttack01_Camera.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FD7959A26801E1A4DB21A2FBD4F3ECECC4972AB3",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_SpawnIn_Trail_Energy_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "81001AFB920E015D8D492FEEE3CD6D6E99D76067",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_SpawnIn_Trail_Energy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B4D0B34FA92DF03652AA31AA5A96A3349C3E125A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Prime_Spawn_Lingering_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C0391FA228049AE8EAC862361BA3E9AAE6E758F0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Mini_Energy_Trail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D3D12C4A01D701413E3276D2506DB0FC197DD511",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_SpawnIn_Trail_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "66CD3EBA5CA17404FDF5CC699EE46E7D2553F33E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Sparks/M_Hotdog_Spark_VLerp_Rand_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D976282631F11A5A323A1176D3A56003EAF5DE42",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_SoftFlare_Prime.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FCD304E8E68FEF6E7EB35F54AB85FCF4EA13FF13",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_SoftFlare_Prime_Inst.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_SoftFlare_Prime_Burst_Inst2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7B0D10CF121FF4AE526637B8ABD32E16346E2B14",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_SoftFlare_PrimeStar_Inst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "82AE325F293F95EBCFE1CFD96E04552031FF3358",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Prime_Spawnin_Flare.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3BFD6FE1EAED4861745A35362F4E7CE71BC4088C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Prime_Lingering_Energy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "12A7E35A410625D9014CFD94E6935437C8E07010",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/M_Prime_Energy_Cone.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "72757ECB77D2F65567445F2F5187C5A3D854AE2A",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Spawn_Shockwave_Wispy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0F9F16272E58F919E600E5A5F5AD73D8F94347F7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Spawn_Shockwave_Wavy.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F7BDEA87F68B1F0293EBFEA5916EA178EF163632",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Spawn_Shockwave_Soft.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F38B7C35048DFA36B69629362C58565E6FEF4E04",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Spawn_Shockwave_Ring.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "ABE2E8159553C2FCE295EEB41FB310FEAED9B96D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Ring_Distortion.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E4084C5300FADF3DCCADE9729ED8C7E95E54D13",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_LingerSmoke_MasterAdditiveWarp_Simple.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3CF7EF476ABACC126CEDAF83F1275060D5614E9C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_WispySmoke_Plasma.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "ABFEBA02FA6466630E77D893B1FB148DB17098F4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Banner_Lensflare_Incoming.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "85BACAA78466DCFBC9400FAAD0FC1CC456A90952",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_BlurRocks_Fakelit.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0BF6390096814994A303DD5F43004CCD8B604B85",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_fireSubUV_GPU.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E59610E74AD8C8648BFA5C3B819CCACE336A1120",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Tomahawk_ImpactRing.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "20984780682793738928726DB3177C5349786EB4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_Prime_Magic_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "56D4BB059BD086B2F852035F38BBED8CCC8C8A48",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_Ground_Force.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "05C9F2A7E364750DB2A0D81C05CC2BD4AB53D496",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Muzzle_Ribbons.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8770B63DFA16836972E704B68DFDC19961688F99",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Plasma_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DF7DD23A94C9E632AFB0E40C8B20B51459F1B26F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/PlayerBuffs/M_PH_Plasma_Distort.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0DB06D7E8EB1CF32DEF53A3753999533A4856077",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Beam_Helix.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4B3239C841AC07EE81C163A285C7FBCF20D36F05",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Prime_Beam.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DD7BD3B9C692918A056C770B88E95373637E0649",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Beam_Glow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D1A6956B55D99CF86E02F708D0AD4A561B4442F1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_MinionDeathChunks_Master2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D04F90B8FDECAA4867725EDD8C35D87860377EB4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_MinionDeathChunks_Master2.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "BBCA75A05EC052D00F892A7B149438C479783361",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_WateDroplets_Minions_Drops.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5CC4868DE0B9729A8DAF17A608321960ECF34923",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Liquid/M_Minion_Liquid_Mesh.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E2AD7D6EB530DDFD263EB76B05AEC735ED7B92E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_Minion_Ranged.uasset",
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Ranged/M_Minion_Ranged.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B1ED3BF2E120F967751EA966A106EE75E983EE22",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_Minion_Ranged.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6F9B9F4728F8332FC07DE79521DEC41958541ADA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Dragon_Spawn_Icon.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "419816BDD1B3240BC70375F4EC3647508DA86B41",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Black/M_SpawnCamp_IconBackGrounds.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5CA3D59D1795BD27D2F4F3709C87FD441E5D290B",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_GlowPoint_DistShrink_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AFFE54DD66916C1CF85DABC0A46F57231C2773BA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_FlareMesh.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "51A04632F0B44F0099093F224729B47C8974B7AD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Portal_Open_Burst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7BCA1FFB3C6DA240D3A27CF9244C4A2566499302",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_Teleporter_Space_Mini.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "908CDE8C0D0679DA81D2990C39A6F05BBBFB9C58",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/m_UltraFlare_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3809E88B3DAE15143A098A28823E0F92219CABF1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/mi_UltraFlare_MedicStunTendrils.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2F234449EAC93602FF9B4475BC837E894EA0FAC8",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/Hyperbreach/M_SplineThickenSmoke_Trails_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A73C32B3874F32786F1A83239C311EF3DECD5AEF",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/DirectionalLit/M_DamageBuff_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "9FDC6BCB960C7A94DACBAD49B71FC76CE00C5E4C",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/M_ThickSmoke_MASTER.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "966C1F19FA61FC0B6CF77F196F84A802EA1BB6E4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_UpEmbers_LightShafts.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FAE6AF69882FE3F4299B61E84909642923867206",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Mesh_Fire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DAC619E5A397002216EE708317ACDD8C2E4E4943",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Explosions/M_Fireball_InvisMoving.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "166951A419AEC4FA04AB5895D2A3F2E18861F558",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_FX_Fireball_SubUV_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D6FB5EC50A0A7C6D5BCC4A7C9E1E07B99DB36C90",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Debris/M_Explosion_RockChunks.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FBA4398694F4CF52186787EB6DFC3646FCB0F8D1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Wispy_Dark_Smoke_Trail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CE0291ACF4B94FC7636CB24987969AAA2C84B00E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Arcblade_Block_Smoke.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "94E82C00971EA241A69283F33BC794F96925A7AE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Crunch_Fist_Fire.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7FBBA9A8D93A5092EC1D87328633F9E1BE839DF7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_Fire_Projectile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "52E8112C73682CDD8126163EA6FB64CD99158F76",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Particle_Decals/M_Particle_Decal_Glow_Undertow.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B5220320B7CAAD53B0E76DBB65F9F9536C376ADD",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_ParticleRefraction_SimpleHeatDistortion.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "451C5FFE37BDE1203811665B6413DC036AE7705D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Shield_Lightbeams4.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2AE8C9B656DD9EB01BFE4A98AFDC7B78D2B47A46",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_FX_Fireblast_SubUV_02a.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4C90257BC9530C24B4BE9F1D568897E2393F8E1E",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Energy/Plasma/M_Revenant_Obliterate_PanningEdge.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7B1BD780926E1714075C430CEDD3B72B1FBD2085",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/WispySmokeSoft/M_WispySmokeSoft.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C851A0FDD23514B9C578C1FF1EBC91270A318530",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Heroes/Crunch/M_Crunch_Impact_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B218099705C12D53494AA2050E5B1BE28F9C8D3F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Buff_Red_MeleeImpact_LightBeams.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8A8E17FA0DDE779EC9AA4A3860B41E6449164349",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/MI_CleanseFlare_HighRangeLDR.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A0252340EED43938F5C16241D20E2D7E89FC5397",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Shockwaves/M_Revenant_RoundDistort.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E1A67D673597585C5C2E5F070F03911AB3D1A908",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_MinionDeathChunks_WhiteBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2DFE3C67675B6C9A1389979E106EAFD44A68E047",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Minion_Specific/M_MinionDeathChunks_WhiteBuff.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "2EC6A889C96F0082C8E4B20192E1205D15E58AC7",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_CoinCore_Glow_Master.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E141EB919104A9356F5BC93CE22311402CC8EE84",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Buff_Red_Trail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FCC44DC1BF9C1A2E7E589648B6D6E9921F5E6465",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/m_flare_03.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EBFAD2FF831B3718AB4838643803BDC06C9F8FD4",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_ParticleRefraction_SimpleHeatDistortion_AlphaControl.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "81BB8210A6CC2B3DC859F371CEA4A74D3F2B9B92",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Explosions/M_RedBuff_Fireball_SubUV.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E32AB3DCF097FDF3ED33DD974CF9B366E4D8E2EC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Red/M_RedBuff_ExtraFlameInteractionParticles.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F562152A92D73173D9A0E3C7D2AEE5A93DDE6DC1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Smoke/WispySmokeTest.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D0EB0BCDE54826AA388E294CA412F589975978A3",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/m_flare_01.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C28A9677E4095E113FB325F1BF041FE1D4E05DCC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_Buff_Red_ImpactRays.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AA4A60A03A87FCC5CA62F0B8246CBB87F0E1CB07",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_Liquid_Drip.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "B3295B8402C9BAA491B4385B82D48F3BA66A8ADC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Spit_Projectile_Trail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "DB667CA602B27B1B7B94FE87D5E746A5BE1B7CB0",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Blue/M_SpitProjectile.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AFA2A8E1FE30BA8FF83ACEE629C03B6F67B96D3D",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Environment/Bugs/M_BlueBaby_GPU.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7C8B7E472A355CF8E07CE7FF8B55DD79E6878FFE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Blue/M_Buff_Master_Baby.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "25187E325E1C9C8F237F37D49CAF3D8CAE777A97",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Camps_Specific/Buff_Blue/M_Buff_Master_Baby.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E40810FC1CB95C337DE7E8388BE5CF604F92A4FB",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_SpitInternalGlow_Core.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7E102E2FC9461D9DFE8414A26F289617FCD6AA49",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_SpitInternalGlow_EmissiveInst.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "58A2AD801194AEAB7C5E9341C62140A470829094",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Trails/M_Black_Buff_Melee_Trail.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "938A0671907DE220E9300343AB5ADF9F641F65BC",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Spline/M_SplineTargetting.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A40EDB5E1FCA152F0A67FE35CB7AD1AEF58AACDA",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Flares/M_GrenadeStorm_TargetLazer.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "CDB9355DFC8F9E6C8330D167C3F5BA0C15BBEE78",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_MineralPoolWater_ShadowPlane_Mist.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A2C5E3EC3195B2AD14E54CADECD0FA570FF4B915",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Water/M_MineralPoolWater_ShadowPlane_Mist.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E5C43D582E1EF19EB921C668E2E1A80BDC210EBE",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/HeatDistort/M_ShadowPad_OuterMist.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E8C4C933553AD2CA526EC3B3DB79009644DBAAF1",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Icons/M_MasteryCrown_Test.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FD2A154B5DF77BD1C8D329EF17D938FC9766CD89",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/FX/Materials/Fire/M_FX_Fireblast_SubUV_02.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "643819CA5AEA0EBFF20EEDB59D7B8DB42BCB0A9F",
+			"Assets": [
+				"G:/Unreal Projects/UE4Tanks/ToonTanksV1/Content/ParagonMinions/Characters/Minions/Down_Minions/Materials/Ranged/M_Minion_Ranged.uasset"
+			]
+		}
+	]
+}

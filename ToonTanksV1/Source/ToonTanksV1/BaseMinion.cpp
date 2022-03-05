@@ -50,7 +50,7 @@ void ABaseMinion::BeginPlay()
 
 	/* GetWorldTimerManager().SetTimer(SpawnDelayTimerHandle, this, &ABaseMinion::Fire, SpawnDelay, false); */
 
-	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ABaseMinion::AttackCondition, FireRate, true);
+	GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ABaseMinion::AttackCondition, FireRate, true, 3.0f);
 
 }
 
