@@ -12,7 +12,6 @@
 #include "BasePickup.generated.h"
 
 
-
 UCLASS()
 class TOONTANKSV1_API ABasePickup : public AActor
 {
@@ -31,6 +30,9 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void PickedUp();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	class UNiagaraComponent* ParticleIdle;
+
 private: 
 
 	class ATank* Tank;
@@ -42,9 +44,6 @@ private:
 	
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* BaseMesh;
-
-	UPROPERTY(EditAnywhere)
-	class UNiagaraComponent* ParticleIdle;
 
 	UFUNCTION()
 	void OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
