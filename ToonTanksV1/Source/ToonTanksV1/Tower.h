@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "BasePawn.h"
 #include "TimerManager.h"
-
 #include "Tower.generated.h"
 
 

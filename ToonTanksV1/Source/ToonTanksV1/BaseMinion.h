@@ -75,6 +75,6 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Combat")	
 	USoundBase* FireSound;
 
-	class AToonTanksGameMode* ToonTanksGameMode;
+	class ATimeAttackGameMode* TimeAttackGameMode;
 	class ALevelUpGameMode* LevelUpGameMode;
 };

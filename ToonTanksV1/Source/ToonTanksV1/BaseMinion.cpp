@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BaseMinion.h"
-#include "ToonTanksGameMode.h"
+#include "TimeAttackGameMode.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
 #include "Projectile.h"
@@ -30,9 +30,9 @@ float ABaseMinion::TakeDamage(float DamageAmount, struct FDamageEvent const& Dam
 	
 	if (DamageToApply <= 0.f) return DamageToApply;
 
-	if (Health <= 0.f && ToonTanksGameMode)
+	if (Health <= 0.f && TimeAttackGameMode)
 	{
-		ToonTanksGameMode->ActorDied(this);
+		TimeAttackGameMode->ActorDied(this);
 	}
 	else if (Health <= 0.f && LevelUpGameMode)
 	{
@@ -51,7 +51,7 @@ void ABaseMinion::BeginPlay()
 
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
 	
-	ToonTanksGameMode = Cast<AToonTanksGameMode>(UGameplayStatics::GetGameMode(this));
+	TimeAttackGameMode = Cast<ATimeAttackGameMode>(UGameplayStatics::GetGameMode(this));
 	LevelUpGameMode = Cast<ALevelUpGameMode>(UGameplayStatics::GetGameMode(this));
 
 	/* GetWorldTimerManager().SetTimer(SpawnDelayTimerHandle, this, &ABaseMinion::Fire, SpawnDelay, false); */

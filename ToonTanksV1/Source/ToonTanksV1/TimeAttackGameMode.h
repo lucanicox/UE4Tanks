@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ToonTanksGameMode.generated.h"
+#include "TimeAttackGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TOONTANKSV1_API AToonTanksGameMode : public AGameModeBase
+class TOONTANKSV1_API ATimeAttackGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
@@ -24,7 +24,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int Seconds = 0;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int SecondsToAdd = 2;
+
 	void AddScore();
+
+	void AddSeconds();
 
 protected:
 
@@ -50,11 +55,5 @@ private:
 	void HandleGameStart();
 
 	void Countdown();
-
-	int32 TargetTowers = 0;
-	int32 GetTargetTowerCounter();
-
-	int32 TargetMinions = 0;
-	int32 GetTargetMinionsCounter();
 	
 };

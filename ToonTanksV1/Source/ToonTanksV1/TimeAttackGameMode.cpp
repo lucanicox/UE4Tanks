@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ToonTanksGameMode.h"
+#include "TimeAttackGameMode.h"
 #include"Kismet/GameplayStatics.h"
 #include "Tank.h"
 #include "Tower.h"
@@ -10,7 +10,7 @@
 #include "TimerManager.h"
 
 
-void AToonTanksGameMode::ActorDied(AActor* DeadActor) 
+void ATimeAttackGameMode::ActorDied(AActor* DeadActor) 
 {
     if (DeadActor == Tank)                                             // check if dead actor is player
     {
@@ -25,28 +25,39 @@ void AToonTanksGameMode::ActorDied(AActor* DeadActor)
     {
         DestroyedTower->HandleDestruction();
         AddScore();
-        --TargetTowers;
+        AddSeconds();
     }
     else if (ABaseMinion* DestroyedMinion = Cast<ABaseMinion>(DeadActor))
     {
         DestroyedMinion->HandleDestruction();
         AddScore();
-        --TargetMinions;
+        AddSeconds();
     }
 }
 
-void AToonTanksGameMode::AddScore() 
+void ATimeAttackGameMode::AddScore() 
 {
     Score = Score + 100;
 }
 
-void AToonTanksGameMode::BeginPlay() 
+void ATimeAttackGameMode::AddSeconds() 
+{
+    Seconds = Seconds + SecondsToAdd;
+    if (Seconds > 60)
+    {
+        Minutes ++;
+        Seconds = Seconds - 60;
+    }
+    
+}
+
+void ATimeAttackGameMode::BeginPlay() 
 {
     Super::BeginPlay();
     HandleGameStart(); 
 }
     
-void AToonTanksGameMode::HandleGameStart() 
+void ATimeAttackGameMode::HandleGameStart() 
 {
 
     Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));      //set pawn var
@@ -63,12 +74,12 @@ void AToonTanksGameMode::HandleGameStart()
         GetWorldTimerManager().SetTimer(PlayerEnableTimerHandle, DelayDelegate, StartDelay, false);   //pass handle & delegate + params to SetTimer()
 
         FTimerHandle TimerHandleCountdown;
-        GetWorldTimerManager().SetTimer(TimerHandleCountdown, this, &AToonTanksGameMode::Countdown, 1.f, true, 3.0);
+        GetWorldTimerManager().SetTimer(TimerHandleCountdown, this, &ATimeAttackGameMode::Countdown, 1.f, true, 3.0);
     }
     
 }
 
-void AToonTanksGameMode::Countdown() 
+void ATimeAttackGameMode::Countdown() 
 {
     if (Seconds != 0 )
     {
@@ -87,18 +98,4 @@ void AToonTanksGameMode::Countdown()
             Seconds = 59;
         }
     }
-}
-
-int32 AToonTanksGameMode::GetTargetTowerCounter() 
-{
-    TArray<AActor*> Towers;
-    UGameplayStatics::GetAllActorsOfClass(this, ATower::StaticClass(), Towers);
-    return Towers.Num();
-}
-
-int32 AToonTanksGameMode::GetTargetMinionsCounter() 
-{
-    TArray<AActor*> Minions;
-    UGameplayStatics::GetAllActorsOfClass(this, ABaseMinion::StaticClass(), Minions);
-    return Minions.Num();
 }
