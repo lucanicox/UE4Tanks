@@ -63,4 +63,5 @@ private:
 	USoundBase* FireSound;
 
 	class AToonTanksGameMode* ToonTanksGameMode;
+	class ALevelUpGameMode* LevelUpGameMode;
 };

@@ -7,6 +7,7 @@
 #include "Projectile.h"
 #include "Kismet/GameplayStatics.h"
 #include "ToonTanksGameMode.h"
+#include "LevelUpGameMode.h"
 
 
 
@@ -44,6 +45,10 @@ float ABasePawn::TakeDamage(float DamageAmount, struct FDamageEvent const& Damag
 	{
 		ToonTanksGameMode->ActorDied(this);
 	}
+	else if (Health <= 0.f && LevelUpGameMode)
+	{
+		LevelUpGameMode->ActorDied(this);
+	}
 
 	return DamageToApply;
 }
@@ -55,6 +60,7 @@ void ABasePawn::BeginPlay()
 	Health = MaxHealth;
 	
 	ToonTanksGameMode = Cast<AToonTanksGameMode>(UGameplayStatics::GetGameMode(this));
+	LevelUpGameMode = Cast<ALevelUpGameMode>(UGameplayStatics::GetGameMode(this));
 }
 
 void ABasePawn::RotateTurret(FVector LookAtTarget)

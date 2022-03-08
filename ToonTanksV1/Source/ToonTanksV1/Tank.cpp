@@ -84,6 +84,7 @@ void ATank::BeginPlay()
 
 void ATank::Fire() 
 {
+    
     if (IsHidden())
     {
         //don't shoot.

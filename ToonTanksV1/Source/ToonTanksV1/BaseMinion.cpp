@@ -7,6 +7,7 @@
 #include "Projectile.h"
 #include "Tank.h"
 #include "AIController.h"
+#include "LevelUpGameMode.h"
 
 
 
@@ -33,6 +34,10 @@ float ABaseMinion::TakeDamage(float DamageAmount, struct FDamageEvent const& Dam
 	{
 		ToonTanksGameMode->ActorDied(this);
 	}
+	else if (Health <= 0.f && LevelUpGameMode)
+	{
+		LevelUpGameMode->ActorDied(this);
+	}
 
 	return DamageToApply;
 }
@@ -47,6 +52,7 @@ void ABaseMinion::BeginPlay()
 	Tank = Cast<ATank>(UGameplayStatics::GetPlayerPawn(this, 0));
 	
 	ToonTanksGameMode = Cast<AToonTanksGameMode>(UGameplayStatics::GetGameMode(this));
+	LevelUpGameMode = Cast<ALevelUpGameMode>(UGameplayStatics::GetGameMode(this));
 
 	/* GetWorldTimerManager().SetTimer(SpawnDelayTimerHandle, this, &ABaseMinion::Fire, SpawnDelay, false); */
 
