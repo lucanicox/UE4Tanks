@@ -8,9 +8,7 @@
 #include "BaseMinion.h"
 #include "ToonTanksPlayerController.h"
 #include "TimerManager.h"
-
-
-
+#include "Blueprint/UserWidget.h"
 
 
 void ALevelUpGameMode::BeginPlay() 
@@ -56,3 +54,19 @@ void ALevelUpGameMode::ActorDied(AActor* DeadActor)
         DestroyedMinion->HandleDestruction();
     }
 }
+
+bool ALevelUpGameMode::LevelUp(int Exp) 
+{
+    if (Exp >= ExperienceToLevelUp)
+    {
+        Level = Level++;
+        ExperienceToLevelUp = ExperienceToLevelUp * 2;
+        UE_LOG(LogTemp, Warning, TEXT("Level %i"), ExperienceToLevelUp);
+        UE_LOG(LogTemp, Warning, TEXT("Level %i"), Level);
+
+        Tank->AddSkill();
+        return true;
+    }
+    else return false;
+}
+

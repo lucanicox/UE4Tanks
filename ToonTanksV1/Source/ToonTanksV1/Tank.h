@@ -41,6 +41,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float FireRate = 1.f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	float Speed = 800.f;
+
+	void AddSkill();
+
 	void Fire();
 
 	APlayerController* GetTankPlayerController() const { return TankPlayerController; }
@@ -69,16 +74,10 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	USceneComponent* ProjectileSpawnPointB;
 
-	//Movement Variables	-
-	UPROPERTY(EditAnywhere, Category = "Movement")
-	float Speed = 800.f;
-
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float TurnRate = 250.f;
 
 	FTimerHandle FireRateTimerHandle;
-	
-	
 	
 	//Input Functions
 	void Move(float Value);

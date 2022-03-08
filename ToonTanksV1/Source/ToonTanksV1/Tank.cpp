@@ -63,6 +63,11 @@ float ATank::GetHealthPercent() const
     return Health / MaxHealth;
 }
 
+void ATank::AddSkill() 
+{
+
+}
+
 void ATank::BeginPlay() 
 {
     Super::BeginPlay();

@@ -22,6 +22,9 @@ public:
 	// Sets default values for this actor's properties
 	ABasePickup();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int ExpGained = 10;
+
 protected:
 	
 	// Called when the game starts or when spawned

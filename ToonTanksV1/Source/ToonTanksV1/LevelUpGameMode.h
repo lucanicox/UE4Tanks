@@ -21,6 +21,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int Experience;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int Level =1;
+
+	UFUNCTION(BlueprintCallable)
+	bool LevelUp(int Exp);
+
+	/* UFUNCTION(BlueprintCallable)
+	void SkillHUD();
+ */
 protected:
 
 	virtual void BeginPlay() override;
@@ -31,6 +40,8 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameOver(bool bWonGame);
 
+	int ExperienceToLevelUp = 100;
+
 private:
 
 	class ATank* Tank;                        // declare class var pointer for player
@@ -39,5 +50,5 @@ private:
 	float StartDelay = 3.f;
 
 	void HandleGameStart();
-	
+
 };

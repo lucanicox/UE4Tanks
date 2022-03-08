@@ -2,6 +2,8 @@
 
 
 #include "ToonTanksPlayerController.h"
+#include "Blueprint/UserWidget.h"
+
 
 
 void AToonTanksPlayerController::SetPlayerEnableState(bool bPlayerEnabled) 
