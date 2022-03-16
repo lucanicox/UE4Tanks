@@ -6,8 +6,14 @@
 #include "GameFramework/GameModeBase.h"
 #include "LevelUpGameMode.generated.h"
 
-/**
+/* *  TO ADD:
+ * 			-Ability Tree(Weapons{Attacks}-Defense{Shields/Health}-Passive{Support})
  * 
+ *			-Weapons(Drone-ChemicalBomb-DropMines-/AirBombs-Flamethrower-FireTurret-/TripleShot-/RocketLauncher)
+ * 			-Defense(/Shield+-/+Health-HealthRegen-ShieldRegen-/ReduceIncomingDmg)
+ * 			-Passive(/+Speed-CriticalDmg-AllDmgBoost-IncreasePickUpRadius-/FireRate)
+ * 
+ *          -ProjectilesMods(DamageArea-Incendiary-CriticalHit)
  */
 UCLASS()
 class TOONTANKSV1_API ALevelUpGameMode : public AGameModeBase

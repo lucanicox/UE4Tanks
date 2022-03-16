@@ -91,18 +91,18 @@ void ATank::Fire()
     }
     else
     {
-        if (PowerUpFireRateActive) //Check if firerate power up is active and set new timer.
+        if (PowerUpFireRateActive) //Check if firerate power up is active and set new timer loop true
         {
             FireRate = 0.3;
 
             GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true);
         }
 
-        else if (!PowerUpFireRateActive) //if not set new timer with normal fire rate
+        else if (!PowerUpFireRateActive) //if not set new timer with normal fire rate, loop false
         {
             FireRate = 0.6;
 
-            GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, true);
+            GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATank::Fire, FireRate, false);
         }
 
         if (PowerUpFireActive)  //Check if TripleShot power up is active and spawn projectiles
